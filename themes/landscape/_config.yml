@@ -1,12 +1,9 @@
 # Header
-menu:
-  首页: /
-  归档: /archives
-  wiki: /www.wiki.com
-  关于: /about
+# menu:
+  # Home: /
+  # Archives: /archives
 rss: /atom.xml
-# banner: "images/banner.jpg"
-# language: zh-CN
+banner: "images/banner.jpg"
 
 # Content
 excerpt_link: Read More
@@ -18,7 +15,7 @@ fancybox: true
 #   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></br>
 
 # Footer
-copyright: zhaoyh603
+copyright:
 # Need help choosing? Please see...
 # https://creativecommons.org/choose/
 # https://choosealicense.com/
