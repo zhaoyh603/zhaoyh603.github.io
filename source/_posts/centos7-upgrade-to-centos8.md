@@ -1,5 +1,5 @@
 ---
-title: centos7 upgrade to centos8
+title: centos7 升级到 centos8
 typora-copy-images-to: centos7 upgrade to centos8
 typora-root-url: centos7 upgrade to centos8
 date: 2022-02-03 11:17:33
