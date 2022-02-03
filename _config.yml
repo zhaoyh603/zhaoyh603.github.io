@@ -117,4 +117,4 @@ deploy:
   type: git
   repo: git@github.com:zhaoyh603/zhaoyh603.github.io.git
   # example, https://github.com/hexojs/hexojs.github.io
-  branch: gh-pages
+  branch: master
