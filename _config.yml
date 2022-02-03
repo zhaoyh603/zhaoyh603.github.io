@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: zhaoyh603的blog
-subtitle: '日常杂记'
-description: '日常杂记'
-keywords:
+title: zhaoyh603
+subtitle: 'Python、odoo、Accounting、Linux，日常杂记'
+description: 'Python、odoo、Accounting、Linux，日常杂记'
+keywords: Python,odoo,会计,Linux,Accounting
 author: zhaoyh603
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://zhaoyh603.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -40,14 +40,17 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
 relative_link: false
 future: true
 highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: '    '
   wrap: true
   hljs: false
 prismjs:
@@ -69,6 +72,14 @@ index_generator:
 default_category: uncategorized
 category_map:
 tag_map:
+
+
+#  hexo-excerpt 
+excerpt:
+  depth: 5  
+  excerpt_excludes: []
+  more_excludes: []
+  hideWholePostExcerpts: true
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -98,7 +109,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape #landscape
+theme: next #landscape next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
