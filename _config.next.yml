@@ -66,11 +66,11 @@ creative_commons:
   license: by-nc-sa
   # Available values: big | small
   size: small
-  sidebar: false
-  post: false
+  sidebar: true
+  post: true
   # You can set a language value if you prefer a translated version of CC license, e.g. deed.zh
   # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
-  language:
+  language: deed.zh
 
 
 # ---------------------------------------------------------------
@@ -142,8 +142,8 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  #GitHub: https://github.com/yourname || fab fa-github
-  #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+  GitHub: https://github.com/zhaoyh603 || fab fa-github
+  E-Mail: mailto:zhaoyh603@163.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
@@ -165,6 +165,7 @@ links_settings:
   # Available values: block | inline
   layout: block
 
+# 设置外链
 links:
   #Title: https://example.com
 
@@ -289,8 +290,8 @@ related_posts:
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit:
-  enable: false
-  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/ # Link for view source
+  enable: true
+  url: https://github.com/zhaoyh603/zhaoyh603.github.io/tree/main/source/_posts/ # Link for view source
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit
 
 # Show previous post and next post in post footer if exists
