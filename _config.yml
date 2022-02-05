@@ -5,15 +5,15 @@
 # Site
 title: zhaoyh603
 subtitle: 'Python、odoo、Accounting、Linux，日常杂记'
-description: 'Python、odoo、Accounting、Linux，日常杂记'
-keywords: Python,odoo,会计,Linux,Accounting
+description: 'Python、erp、odoo、Accounting、Linux，日常杂记'
+keywords: Python,odoo,会计,erp,Linux,Accounting
 author: zhaoyh603
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://zhaoyh603.github.io/
+url: https://blog.oeerp.com/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
