@@ -4,7 +4,7 @@
 
 # Site
 title: zhaoyh603
-subtitle: 'Python、odoo、Accounting、Linux，日常杂记'
+subtitle: 'Python、odoo、erp、Accounting、Linux，日常杂记'
 description: 'Python、erp、odoo、Accounting、Linux，日常杂记'
 keywords: Python,odoo,会计,erp,Linux,Accounting
 author: zhaoyh603
@@ -102,7 +102,8 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
+include: 
+    - .nojekyll
 exclude:
 ignore:
 
