@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>zhaoyh603</title>
+  
+  <subtitle>Python、odoo、erp、Accounting、Linux，日常杂记</subtitle>
+  <link href="https://blog.oeerp.com/atom.xml" rel="self"/>
+  
+  <link href="https://blog.oeerp.com/"/>
+  <updated>2022-02-08T01:05:32.504Z</updated>
+  <id>https://blog.oeerp.com/</id>
+  
+  <author>
+    <name>zhaoyh603</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ddns工具收藏</title>
+    <link href="https://blog.oeerp.com/2022/02/07/ddns-tools/"/>
+    <id>https://blog.oeerp.com/2022/02/07/ddns-tools/</id>
+    <published>2022-02-07T15:44:15.000Z</published>
+    <updated>2022-02-08T01:05:32.504Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>地址：</code> <strong><a href="https://github.com/jeessy2/ddns-go">ddns-go</a></strong></p><p>自动获得你的公网 IPv4 或 IPv6 地址，并解析到对应的域名服务。</p><p><code>特性：</code></p><p>支持Mac、Windows、Linux系统，支持ARM、x86架构；</p><p>支持的域名服务商 Alidns(阿里云) Dnspod(腾讯云) Cloudflare 华为云 Callback（自定义回调）；</p><p>支持接口&#x2F;网卡获取IP；</p><p>支持以服务的方式运行；</p><p>默认间隔5分钟同步一次；</p><p>支持多个域名同时解析；</p><p>支持多级域名；</p><p>网页中配置，简单又方便，可设置 登录用户名和密码 &#x2F; 禁止从公网访问；</p><p>网页中方便快速查看最近50条日志，不需要跑docker中查看；</p><p>支持webhook通知；</p><p>支持TTL。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;code&gt;地址：&lt;/code&gt; &lt;strong&gt;&lt;a href=&quot;https://github.com/jeessy2/ddns-go&quot;&gt;ddns-go&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;自动获得你的公网 IPv4 或 IPv6 地址，并解析到对应的域名服务。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;特性：&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;支持Mac、Windows、Linux系统，支持ARM、x86架构；&lt;/p&gt;
+&lt;p&gt;支持的域名服务商 Alidns(阿里云) Dnspod(腾讯云) Cloudflare 华为云 Callback（自定义回调）；&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tools" scheme="https://blog.oeerp.com/categories/tools/"/>
+    
+    
+    <category term="ddns" scheme="https://blog.oeerp.com/tags/ddns/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Vercel发布mkdocs文档</title>
+    <link href="https://blog.oeerp.com/2022/02/06/deploy-mkdocs-with-Vercel/"/>
+    <id>https://blog.oeerp.com/2022/02/06/deploy-mkdocs-with-Vercel/</id>
+    <published>2022-02-06T14:40:07.000Z</published>
+    <updated>2022-02-07T15:35:57.096Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>注册了Vercel账号并与GitHub关联</p><h2 id="项目要求"><a href="#项目要求" class="headerlink" title="项目要求"></a>项目要求</h2><p>1.使用pip freeze &gt;requirements.txt 生成依赖文件提交到仓库</p><p><code>pip freeze &gt;requirements.txt</code></p><h2 id="Vercel项目设置"><a href="#Vercel项目设置" class="headerlink" title="Vercel项目设置"></a>Vercel项目设置</h2><ol><li>新建项目关联仓库</li></ol><p><img src="/2022/02/06/deploy-mkdocs-with-Vercel/image-20220206224907928.png" alt="新建项目设置"></p><ol start="2"><li>设置项目信息</li></ol><p><img src="/2022/02/06/deploy-mkdocs-with-Vercel/image-20220206225057716.png" alt="发布mkdocs的必要设置"></p><h2 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h2><p>GitHub提交代码测试或手动重新发布。</p><p>在项目的Deployments页签中。</p><p><img src="/2022/02/06/deploy-mkdocs-with-Vercel/image-20220206225400649.png" alt="image-20220206225400649"></p><p>可以看到发布的日志</p><p><img src="/2022/02/06/deploy-mkdocs-with-Vercel/image-20220206225451090.png" alt="image-20220206225451090"></p><p>source中可以看到发布的静态文件</p><p><img src="/2022/02/06/deploy-mkdocs-with-Vercel/image-20220206225532959.png" alt="image-20220206225532959"></p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;注册了Vercel账号并与GitHub关联&lt;/p&gt;
+&lt;h2 id=&quot;项目要求&quot;&gt;&lt;a href=&quot;#项目要求&quot; class=&quot;headerlink&quot; title=&quot;项目要求&quot;&gt;&lt;/a&gt;项目要求&lt;/h2&gt;&lt;p&gt;1.使用pip freeze &amp;gt;requirements.txt 生成依赖文件提交到仓库&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pip freeze &amp;gt;requirements.txt&lt;/code&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://blog.oeerp.com/categories/blog/"/>
+    
+    
+    <category term="mkdocs" scheme="https://blog.oeerp.com/tags/mkdocs/"/>
+    
+    <category term="Vercel" scheme="https://blog.oeerp.com/tags/Vercel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>华硕路由器设置自定义host</title>
+    <link href="https://blog.oeerp.com/2022/02/04/asus-router-host-setting/"/>
+    <id>https://blog.oeerp.com/2022/02/04/asus-router-host-setting/</id>
+    <published>2022-02-03T16:28:42.000Z</published>
+    <updated>2022-02-07T15:35:57.096Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>华硕路进入ssh后添加host配置后，重启后会失效。</p><h2 id="第一步：安装必要包"><a href="#第一步：安装必要包" class="headerlink" title="第一步：安装必要包"></a>第一步：安装必要包</h2><ol><li><p>插U盘，格式化</p></li><li><p>安装 dnsmasq（貌似默认就有）</p></li><li><p>前台开启下载大师。</p></li></ol><h2 id="第二步：设置启动内容"><a href="#第二步：设置启动内容" class="headerlink" title="第二步：设置启动内容"></a>第二步：设置启动内容</h2><p>cd &#x2F;opt&#x2F;etc&#x2F;init.d&#x2F;</p><p>实际路径在U盘中。</p><p>新建：S60addhost文件，注意前面的顺序S60一定大于dnsmasq的设置。</p><p> 编辑S60addhost的内容。</p><p> 格式：dnsmasq –address&#x3D;&#x2F;&#x2F;  如：</p><p><code>dnsmasq --address=/xxx.com/192.168.1.3</code></p><p> 多条可顺序增加。</p><h2 id="第三步：设置自动重启添加"><a href="#第三步：设置自动重启添加" class="headerlink" title="第三步：设置自动重启添加"></a>第三步：设置自动重启添加</h2><p>切换目录。</p><p><code>cd /opt/lib/ipkg/info</code></p><p> 新建文件：addhost.control</p><p> 编辑文件内容：</p><p><code>Enabled: yes</code></p><h2 id="第四步：重启路由器生效"><a href="#第四步：重启路由器生效" class="headerlink" title="第四步：重启路由器生效"></a>第四步：重启路由器生效</h2><p>  <code>reboot</code></p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;华硕路进入ssh后添加host配置后，重启后会失效。&lt;/p&gt;
+&lt;h2 id=&quot;第一步：安装必要包&quot;&gt;&lt;a href=&quot;#第一步：安装必要包&quot; class=&quot;headerlink&quot; title=&quot;第一步：安装必要包&quot;&gt;&lt;/a&gt;第一步：安装必要包&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;插U盘，格式化&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;安装 dnsmasq（貌似默认就有）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;前台开启下载大师。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;第二步：设置启动内容&quot;&gt;&lt;a href=&quot;#第二步：设置启动内容&quot; class=&quot;headerlink&quot; title=&quot;第二步：设置启动内容&quot;&gt;&lt;/a&gt;第二步：设置启动内容&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="路由器" scheme="https://blog.oeerp.com/categories/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+    
+    
+    <category term="华硕" scheme="https://blog.oeerp.com/tags/%E5%8D%8E%E7%A1%95/"/>
+    
+    <category term="host" scheme="https://blog.oeerp.com/tags/host/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>centos7 升级到 centos8</title>
+    <link href="https://blog.oeerp.com/2022/02/03/centos7-upgrade-to-centos8/"/>
+    <id>https://blog.oeerp.com/2022/02/03/centos7-upgrade-to-centos8/</id>
+    <published>2022-02-03T03:17:33.000Z</published>
+    <updated>2022-02-05T01:16:46.197Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="安装必要包"><a href="#安装必要包" class="headerlink" title="安装必要包"></a>安装必要包</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install yum-utils epel-release -y</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install rpmconf -y</span><br></pre></td></tr></table></figure><h2 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpmconf -a</span><br></pre></td></tr></table></figure><p>输出空 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">package-cleanup --leaves</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install dnf -y</span><br></pre></td></tr></table></figure><p>清除</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum dnf -y remove yum yum-metadata-parser &amp;&amp; rm -rf /etc/yum</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget http://mirrors.ustc.edu.cn/centos/8/BaseOS/x86_64/os/Packages/centos-gpg-keys-8-3.el8.noarch.rpm wget http://mirrors.ustc.edu.cn/centos/8/BaseOS/x86_64/os/Packages/centos-linux-release-8.5-1.2111.el8.noarch.rpm wget http://mirrors.ustc.edu.cn/centos/8/BaseOS/x86_64/os/Packages/centos-linux-repos-8-3.el8.noarch.rpm dnf install -y centos-gpg-keys-8-3.el8.noarch.rpm centos-linux-release-8.5-1.2111.el8.noarch.rpm centos-linux-repos-8-3.el8.noarch.rpm</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dnf clean all</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -e --nodeps rpm -qa|grep -i kernel</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -e --nodeps sysvinit-tools</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dnf -y --releasever=8 --allowerasing --setopt=deltarpm=false distro-sync </span><br></pre></td></tr></table></figure><p>按照需要xxx的包 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -ivh --nodeps --force http://mirrors.ustc.edu.cn/centos/8/BaseOS/x86_64/os/Packages/dracut-network-049-191.git20210920.el8.x86_64.rpm </span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -ivh --nodeps --force http://mirrors.ustc.edu.cn/centos/8/AppStream/x86_64/os/Packages/flatpak-1.8.5-5.el8_5.x86_64.rpm</span><br></pre></td></tr></table></figure><p>卸载事务检查错误的包</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -e --nodeps man-pages-zh-CN-1.5.2-4.el7</span><br></pre></td></tr></table></figure><p>再次运行 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dnf -y --releasever=8 --allowerasing --setopt=deltarpm=false distro-sync</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /etc/redhat-release </span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dnf clean all</span><br></pre></td></tr></table></figure><h2 id="安装内核"><a href="#安装内核" class="headerlink" title="安装内核"></a>安装内核</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dnf -y install kernel-core --best --allowerasing</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dnf clean packages</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">dnf -y groupupdate &quot;Core&quot; &quot;Minimal Install&quot; --allowerasing</span><br><span class="line"></span><br><span class="line">reboot</span><br></pre></td></tr></table></figure><h2 id="设置启动顺序"><a href="#设置启动顺序" class="headerlink" title="设置启动顺序"></a>设置启动顺序</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grub2-set-default 0</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;安装必要包&quot;&gt;&lt;a href=&quot;#安装必要包&quot; class=&quot;headerlink&quot; title=&quot;安装必要包&quot;&gt;&lt;/a&gt;安装必要包&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;yum install yum-utils epel-release -y&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;yum install rpmconf -y&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;升级&quot;&gt;&lt;a href=&quot;#升级&quot; class=&quot;headerlink&quot; title=&quot;升级&quot;&gt;&lt;/a&gt;升级&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;rpmconf -a&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="Linux" scheme="https://blog.oeerp.com/categories/Linux/"/>
+    
+    
+    <category term="centos" scheme="https://blog.oeerp.com/tags/centos/"/>
+    
+    <category term="Linux" scheme="https://blog.oeerp.com/tags/Linux/"/>
+    
+  </entry>
+  
+</feed>
