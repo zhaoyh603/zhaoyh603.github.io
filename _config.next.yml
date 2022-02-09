@@ -87,6 +87,7 @@ menu:
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
+  favorites: /favorites/ || fa fa-bookmark
   wiki: https://zfkj.wiki.oeerp.com/ || fab fa-wikipedia-w
   # schedule: /schedule/ || fa fa-calendar
   # sitemap: /sitemap.xml || fa fa-sitemap
