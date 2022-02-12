@@ -18,3 +18,9 @@ MkDocs 是一个用于创建项目文档的 快速, 简单 , 完美华丽的静�
 * [mkdocs-awesome-pages-plugin](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin)
 
 mkdocs的自定义导航简化配置插件
+
+## odoo
+
+ * OCA 
+    * https://github.com/OCA
+    * https://odoo-community.org/
