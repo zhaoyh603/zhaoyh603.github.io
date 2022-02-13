@@ -4,7 +4,9 @@ typora-copy-images-to: odoo-3rd-mis
 typora-root-url: odoo-3rd-mis
 date: 2022-02-13 10:27:18
 tags:
+  - Odoo模块
 category:
+  - Odoo
 ---
 
 
