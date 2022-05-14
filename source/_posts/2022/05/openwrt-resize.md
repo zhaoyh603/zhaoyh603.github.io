@@ -4,7 +4,9 @@ typora-copy-images-to: openwrt-resize
 typora-root-url: openwrt-resize
 date: 2022-05-14 22:17:19
 tags:
+  - openwrt
 category:
+  - 路由器
 ---
 
 转载自： https://www.techkoala.top/openwrt_resize/
