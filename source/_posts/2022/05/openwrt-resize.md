@@ -50,6 +50,15 @@ mount /dev/vda3 /mnt/vda3
 
 ## Web 界面配置修改
 
+安装应用：
+
+```
+
+opkg update
+opkg install block-mount
+
+```
+
 进入 `OpenWRT` Web 界面的`挂载点`对配置进行修改
 
 ![image-20220514下午102441736](image-20220514下午102441736.png)
