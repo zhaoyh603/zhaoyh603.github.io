@@ -16,7 +16,7 @@ hexo-admin是一个可直接在网页中编辑 hexo 文章插件
 
 ![upload successful](/images/pasted-1.png)
 
-`deployCommand`参数中的脚本中可使用`%1`接收参数，多个参数用空格分隔，如果只有一个参数，输入框中不能有空格。
+`deployCommand`参数中配置的脚本中可使用`$1`接收参数，多个参数用空格分隔，如果只有一个参数，输入框中不能有空格。
 
 
 ```bash
