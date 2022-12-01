@@ -119,3 +119,11 @@ deploy:
   repo: git@github.com:zhaoyh603/zhaoyh603.github.io.git
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
+
+
+# hexo-admin authentification
+admin:
+  username: zhaoyh
+  password_hash: $2a$10$W1JOy1dwN5F.olNmhI7WwO6pRJ0l6.84HZfCPxxuVYYKpB32KNsNy
+  secret: adadfjjasdjfasdlkfjkjlaksdjflasldkjfasd
+  deployCommand: ./admin_deploy.sh
